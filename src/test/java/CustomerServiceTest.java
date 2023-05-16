@@ -1,3 +1,6 @@
+import customer.Customer;
+import customer.CustomerDao;
+import customer.CustomerService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -47,7 +50,7 @@ public class CustomerServiceTest {
     }
 
     /**
-     * Использование класса Answer, для установки id
+     * Показательный пример: использование класса Answer, для установки id
      */
     @Test
     public void testAddCustomerWithId() {
@@ -77,7 +80,7 @@ public class CustomerServiceTest {
     }
 
     /**
-     * Кинуть исключение из mock объекта
+     * Показательный пример: Кинуть исключение из mock объекта
      */
     @Test
     public void testAddCustomerThrowsException() {

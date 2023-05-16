@@ -1,3 +1,5 @@
+package customer;
+
 /**
  * Покупатель
  * @author vpyzhyanov

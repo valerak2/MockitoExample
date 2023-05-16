@@ -1,3 +1,5 @@
+package customer;
+
 /**
  * Сервис для работы с покупателями
  * @author vpyzhyanov
