@@ -1,8 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
-import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.stubbing.Answer;
 
 import static org.mockito.ArgumentMatchers.any;
@@ -12,7 +10,6 @@ import static org.mockito.Mockito.*;
  * Тестирование класса {@link CustomerService}
  * @author Пыжьянов Вячеслав
  */
-@ExtendWith(MockitoExtension.class)
 public class CustomerServiceTest {
 
     private final CustomerDao customerDaoMock = Mockito.mock(CustomerDao.class);
